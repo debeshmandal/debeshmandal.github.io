@@ -1,8 +1,9 @@
 .header {
-    background-color: #f1f1f1;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .linkList {
@@ -10,6 +11,7 @@
   padding: 30px;
   text-align: center;
   font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex-container {
