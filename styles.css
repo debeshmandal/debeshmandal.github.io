@@ -1,6 +1,6 @@
 .container {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
@@ -23,16 +23,45 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  padding-top: 0;
+  margin-top: -1vw;
+}
+
 .header {
   background-color: #f1f1f1;
 }
 
+.footer {
+  background-color: blueviolet;
+}
+
 .linkList {
   background-color: #aaa;
-  padding: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
   text-align: center;
-  font-size: 35px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkList > div {
+  background-color: blanchedalmond;
+  padding: 1px
+}
+
+.linkList > div > a {
+  color: darkgray;
+  text-decoration: none;
+}
+
+.linkList > div > a:hover {
+  color: whitesmoke;
+  background-color: black;
 }
 
 .flex-container {
@@ -46,6 +75,6 @@ h3 {
   width: 200px;
   margin: 20px;
   text-align: center;
-  line-height: 75px;
+  line-height: 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
