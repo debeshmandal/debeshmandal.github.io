@@ -8,6 +8,11 @@
 
 */
 
+body { 
+  padding: 0;
+  margin: 0; 
+} 
+
 .content {
   border: 0;
   padding: 0;
@@ -18,8 +23,8 @@
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
-  margin-left: -0.5vw;
-  margin-right: -0.5vw;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 h1 {
@@ -69,10 +74,8 @@ li {
 
 .footer {
   background-color: darkgray;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 105vw;
+  width: 100%;
+  margin: 0;
 }
 
 .bullet-list {
@@ -110,4 +113,8 @@ li {
   color: black;
   flex: 1;  
   font-size: 20px;
+}
+
+.footer-text {
+  color: whitesmoke;
 }
