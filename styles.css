@@ -63,9 +63,10 @@ li {
 
 .main {
   background-color: #aee8ff;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   padding: 10px;
+  height: 200vh;
 }
 
 .main > p {
