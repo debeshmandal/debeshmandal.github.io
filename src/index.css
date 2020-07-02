@@ -11,3 +11,176 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.content {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+.container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  margin-top: -1vw;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  vertical-align: middle;
+  width: inherit;
+  padding-bottom: 0;
+}
+
+.main {
+  background-color: #aee8ff;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px;
+  height: 200vh;
+}
+
+.main > p {
+  text-align: justify;
+}
+
+.footer {
+  background-color: darkgray;
+  width: 100%;
+  margin: 0;
+}
+
+.bullet-list {
+  text-align: left;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: inherit;
+  justify-content: space-between;
+  text-align: center;
+  vertical-align: middle;
+  height: 30px;
+  line-height: 30px;
+  flex: 1;
+  padding-top: 15px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.menu-item {
+  width: 10vw;
+  margin: 1px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgray;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-item:hover {
+  color: whitesmoke;
+  background-color: black;
+}
+
+.logo-text {
+  color: black;
+  flex: 1;  
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+}
+
+.logo-text > a {
+  text-decoration: none;
+}
+
+.logo-text > a:hover, 
+.logo-text > a:active, 
+.logo-text > a:focus, 
+.logo-text > a:visited {
+  color: black
+}
+
+.footer-text {
+  color: whitesmoke;
+}
+
+.hidden {
+  display: none;
+}
+
+.drop-down {
+  width: 150px;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  top: 70px;
+  right: 0;
+  float: right;
+  position: absolute;
+}
+.drop-down.menu-item{
+  padding: 10px 0;
+  width: 99%;
+}
+
+.icon {
+  display: none;
+  width: 10vw;
+  margin: 1px;
+  color: darkgray;
+}
+
+.active {
+  color: whitesmoke;
+  background-color: black;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 800px) {
+  .topnav.menu {
+    justify-content: right;
+    text-align: right;
+    display: block;
+  } 
+  
+  .items {display: none;}
+  .icon {
+    float: right;
+    display: block;
+    position: absolute;
+    right: 20px;
+  }
+}
