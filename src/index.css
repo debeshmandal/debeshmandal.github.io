@@ -18,6 +18,7 @@ code {
   margin: 0;
   background-color: white;
 }
+
 .container {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -46,7 +47,6 @@ li {
 }
 
 .header {
-  margin-top: -1vw;
   display: flex;
   flex-direction: row;
   position: sticky;
@@ -54,7 +54,6 @@ li {
   background-color: white;
   vertical-align: middle;
   width: inherit;
-  padding-bottom: 0;
 }
 
 .main {

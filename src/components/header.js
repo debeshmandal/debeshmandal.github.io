@@ -35,6 +35,7 @@ function MenuItems (props) {
   return (
     <div className={props.mainClass}>
       <Link className="menu-item" to='/cv'>CV</Link>
+      <Link className="menu-item" to='/games'>Games</Link>
     </div>
   );
 }

@@ -7,6 +7,7 @@ import { Route } from "react-router-dom";
 
 import Home from './components/home';
 import CV from './components/cv';
+import Games from './components/games'
 
 function App(props) {
   return ( 
@@ -14,6 +15,7 @@ function App(props) {
       <Header />
       <Route exact={true} path="/" component={Home} />
       <Route path="/cv" component={CV} />
+      <Route path="/games" component={Games} />
       <Footer />
     </div>);
 }
