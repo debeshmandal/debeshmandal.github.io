@@ -9,7 +9,7 @@ import Home from './components/home';
 import CV from './components/cv';
 import Games from './components/games'
 
-function App(props) {
+function App() {
   return ( 
     <div>
       <Header />
