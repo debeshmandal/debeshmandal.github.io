@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
 .content {
   border: 0;
   padding: 0;

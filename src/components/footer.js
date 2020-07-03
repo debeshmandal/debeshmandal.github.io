@@ -4,7 +4,7 @@ import '../App.css';
 function Footer () {
   return (
     <div className="footer container">
-      <p className="footer-text">debesh@debeshmandal.co.uk</p>
+      <a href="mailto:debesh@debeshmandal.co.uk"><p className="footer-text">debesh@debeshmandal.co.uk</p></a>
     </div> 
   );
 };
