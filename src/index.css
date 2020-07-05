@@ -154,9 +154,10 @@ li {
   float: right;
   position: absolute;
 }
-.drop-down.menu-item{
-  padding: 10px 0;
-  width: 99%;
+
+.drop-down > .menu-item {
+  padding: 5px 0;
+  width: 150px;
 }
 
 .icon {

@@ -27,3 +27,22 @@
   font-size: inherit;
   flex: 2
 }
+
+@media screen and (max-width: 800px) { 
+  .section {
+    text-align: left;
+  }
+  .section-header {
+    flex-direction: column;
+  }
+
+  .date {
+    text-align: left;
+    margin: 0 0 10px 0;
+  }
+
+  .employer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
