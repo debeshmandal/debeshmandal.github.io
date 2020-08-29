@@ -2,6 +2,7 @@
   font-size: inherit;
   text-align: center;
   width: 80%;
+  padding: 0 0 10px;
 }
 
 .section-header {
@@ -10,6 +11,10 @@
   justify-content: space-evenly;
   align-content: center;
   text-align: center;
+}
+
+.section-body {
+  padding: 0 0 5px 0;
 }
 
 .date {
@@ -26,6 +31,28 @@
   text-align: left;
   font-size: inherit;
   flex: 2
+}
+
+.job-title {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.CV-summary {
+  padding: 0;
+  text-align: left;
+}
+
+.CV-item {
+  list-style-type: none;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.CV-text {
+  text-align: left;
+  font-size: 12pt;
 }
 
 @media screen and (max-width: 800px) { 
