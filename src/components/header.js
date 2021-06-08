@@ -42,16 +42,12 @@ function MenuItems (props) {
 
 function Header () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="header container topnav">
-          <p className="logo-text"><Link to='/'>Debesh Mandal</Link></p>
-          <div className="menu">
-            <MenuItems mainClass="items"/>
-            <Burger />
-          </div>
-        </div>
-      </header>
+    <div className="header container topnav">
+      <p className="logo-text"><Link to='/'>Debesh Mandal</Link></p>
+      <div className="menu">
+        <MenuItems mainClass="items"/>
+        <Burger />
+      </div>
     </div>
   );
 };

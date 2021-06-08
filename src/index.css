@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
 .content {
   border: 0;
   padding: 0;
@@ -150,9 +154,10 @@ li {
   float: right;
   position: absolute;
 }
-.drop-down.menu-item{
-  padding: 10px 0;
-  width: 99%;
+
+.drop-down > .menu-item {
+  padding: 5px 0;
+  width: 150px;
 }
 
 .icon {

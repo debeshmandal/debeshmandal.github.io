@@ -1,3 +1,75 @@
-.crazy {
-    font-size: 50px;
+.section {
+  font-size: inherit;
+  text-align: center;
+  width: 80%;
+  padding: 0 0 10px;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+}
+
+.section-body {
+  padding: 0 0 5px 0;
+}
+
+.date {
+  text-align: right;
+  font-size: 15px;
+  flex: 1
+}
+
+.grade {
+  font-size: inherit;
+}
+
+.employer {
+  text-align: left;
+  font-size: inherit;
+  flex: 2
+}
+
+.job-title {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.CV-summary {
+  padding: 0;
+  text-align: left;
+}
+
+.CV-item {
+  list-style-type: none;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.CV-text {
+  text-align: left;
+  font-size: 12pt;
+}
+
+@media screen and (max-width: 800px) { 
+  .section {
+    text-align: left;
+  }
+  .section-header {
+    flex-direction: column;
+  }
+
+  .date {
+    text-align: left;
+    margin: 0 0 10px 0;
+  }
+
+  .employer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
