@@ -34,11 +34,12 @@ function Burger () {
 function MenuItems (props) {
   return (
     <div className={props.mainClass}>
-      <Link className="menu-item" to='/cv'>CV</Link>
-      <Link className="menu-item" to='/games'>Games</Link>
+      <Link className="menu-item" to='/cv'>CV</Link>     
     </div>
   );
 }
+
+//<Link className="menu-item" to='/games'>Games</Link>
 
 function Header () {
   return (

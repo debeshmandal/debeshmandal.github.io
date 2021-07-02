@@ -1,8 +1,13 @@
 import React from 'react';
-function Frame () {
+
+import '../../styles/frame.css';
+
+function Frame (props) {
     return (
         <div className='frame'>
-            <a href="https://placeholder.com"><img src="https://via.placeholder.com/150" alt="placeholder"/></a>
+            <a href={props.link}>
+                <img src={props.img} alt={props.alt}/>
+            </a>
         </div>
     )
 };

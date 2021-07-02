@@ -11,13 +11,12 @@ import Games from './components/games'
 
 function App() {
   return ( 
-    <div>
+    <div className='App-main'>
       <Header />
       <Route exact={true} path="/" component={Home} />
       <Route path="/cv" component={CV} />
-      <Route path="/games" component={Games} />
       <Footer />
     </div>);
 }
-
+// <Route path="/games" component={Games} />
 export default App;
